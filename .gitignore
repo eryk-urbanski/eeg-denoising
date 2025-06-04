@@ -172,3 +172,14 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# Ignore raw EEG data
+*.edf
+*.csv
+*.dat
+*.hea
+*.pkl
+
+# Physionet dataset
+data/auditory-evoked-potential-eeg-biometric-dataset-1.0.0/
